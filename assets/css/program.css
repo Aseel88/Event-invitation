@@ -5,7 +5,7 @@ nav.program{
     align-items: center;
     font-size: 24px;
     color: #CE1069;
-    margin-bottom: 3px;
+    margin-bottom: 10%;
 }
 .back{
     justify-self: end;
@@ -15,6 +15,7 @@ nav.program{
 }
 .smallLogo{
     grid-column: 3/4;
+
 }
 .smallLogo img{
     width: 100px;
