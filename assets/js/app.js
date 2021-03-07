@@ -5,7 +5,7 @@
 //   });
 
 
-
+import { TimelineLite, Back } from "gsap/dist/gsap";
 
 
 const hero = document.querySelector('.hero');
