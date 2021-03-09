@@ -18,21 +18,27 @@ const link = document.querySelector('.link');
 
 
 const tl = gsap.timeline();
-
-tl.to(hero, {height: '120%', duration: 0.5})
+tl.to(hero, {width: '80%', duration: 0.9, ease: Power2.easeInOut})
+// .to(hero, {height: '120%', duration: 0.5})
 .to(hero, {height: '100%', duration: 1, ease: Power2.easeInOut})
 // .to(footer, {height: '45%', duration: 0.2})
-.to(footer, {height: '35%', duration: 1.2, ease: Power2.easeInOut})
+
+
+// , delay: 0.6
+const tl2 = gsap.timeline();
+tl2.to(footer, {width: '80%', duration: 0.9, ease: Power2.easeInOut})
+// .to(footer, {height: '35%', duration: 1, ease: Power2.easeInOut})
 
 
 
 
 
-const tl2 =gsap.timeline();
-tl2.to(footer, {width: '80%', duration: 1})
 
-const tl3 =gsap.timeline();
-tl3.to(hero, {width: '80%', duration: 0.85, ease: Power2.easeInOut})
+
+// const tl2 =gsap.timeline();
+// tl2.
+
+
 // tl3.to(footer, {height: '40%', duration: 0.5})
 // .to(footer, {height: '30%', duration: 0.5, ease: Power2.easeInOut})
 
@@ -49,7 +55,19 @@ tl3.to(hero, {width: '80%', duration: 0.85, ease: Power2.easeInOut})
 // .fromTo(footer,1.3,{width: '100%'}
 // ,{width: '80%', ease: Power2.easeInOut});
 
+// duration: 1,
+const tl3 =gsap.timeline();
+tl3.to(headline, {left: '0%', duration: 1})
+.to(headline, {left: '40%', duration: 1, ease: Power2.easeInOut})
+.to(headline,{left: '30%', duration: 1.3}, {top: '22%', duration: 1.3} )
+.to(headline,{top: '88%', duration: 1.3}, {left: '30%', duration: 1.3 , ease: Power2.easeInOut});
 
+
+
+
+
+
+    // {top: '88%'}, {left: '30%', ease: Power2.easeInOut});
 // const t3 = new TimelineMax();
 // t3.fromTo(headline,0.8,{left: '0%'}
 // ,{left: '40%', ease: Power2.easeInOut})
