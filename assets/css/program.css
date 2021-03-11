@@ -1,4 +1,5 @@
 nav.program{
+   width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     height: 13vh;
@@ -15,7 +16,7 @@ nav.program{
 }
 .smallLogo{
     grid-column: 3/4;
-
+    justify-self: center;
 }
 .smallLogo img{
     width: 100px;

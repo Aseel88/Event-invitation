@@ -1,0 +1,30 @@
+@media screen and (min-width: 560px) {
+ .fal.fa-bars,.search
+ {
+     font-size: 30PX;
+ }
+    footer a{
+     width:140px;
+    height: 55px;
+    border-radius: 26px;
+    font-size: 16PX;
+    margin-top: 2PX;
+  }
+ label{
+      font-size: 18px;
+  }
+}
+@media screen and (min-width: 700px) {
+.container{
+   width: 70%;
+  }
+  p.program{
+      font-size:18px ;
+  }
+.btn{
+    font-size: 18px;
+}
+h2{
+    font-size: 22px;
+}
+}
