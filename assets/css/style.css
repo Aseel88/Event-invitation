@@ -41,6 +41,8 @@ nav{
 }
 .logo {
     grid-column: 3/4;
+    justify-self: center;
+
 }
 .logo img{
     width: 100px;
@@ -67,7 +69,7 @@ nav{
 position: absolute;
 top: 88%;
  left: 35%;
-font-size: 30px;
+font-size: 20px;
 transform: translate(-20%, -70%);
 color: red;
 z-index: 3;
@@ -76,11 +78,17 @@ z-index: 3;
     position: absolute;
     top: 15%;
      left: 35%;
-    font-size: 30px;
+    font-size: 20px;
     transform: translate(-20%, -70%);
     color: red;
     z-index: 3;
     }
+   h5.text{
+        display: none;
+    }
+    .linkDesktop {
+        display: none;
+     }
     /* .hero::after{
         content: "";
         background: black;
@@ -136,7 +144,7 @@ footer{
 footer a{
     color: white;
     font-size: 12PX;
-    padding: 10px;
+    padding-TOP: 16px;
     width:115px;
     height: 40px;
     background-color: #F19191;
@@ -147,7 +155,7 @@ footer a{
     transition-timing-function: ease-in-out;
     transition-delay: 0ms;
     transition-property: all;
-}
+   }
 footer a:hover{
     transform: translatey(-3px);
     background-color: #facfcf;
@@ -270,14 +278,14 @@ box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
 
 
 /*about.html */
-/* p{
+nav p{
     justify-self: center;
     grid-column: 2/5;
     color: #CE1069;
     font-size: 40px;
     font-weight: 400;
     margin-bottom: 20px;
-} */
+}
 .text{
     display: flex;
     flex-direction: column;
@@ -291,6 +299,7 @@ box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
 .about p{
 font-size: 16px;
 margin-bottom: 60px;
+color: #CE1069;
 }
 .downLogo{
     width: 100px;

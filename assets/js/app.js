@@ -14,7 +14,9 @@ const logo = document.querySelector('.logo');
 const headline = document.querySelector('.headline');
 const headline1 = document.querySelector('.headline1');
 const footer = document.querySelector('footer');
-const link = document.querySelector('.link');
+const linkOne = document.querySelector('a.link.one');
+const linktwo = document.querySelector('a.link.two');
+
 
 
 const tl = gsap.timeline();
@@ -33,18 +35,24 @@ tl2.to(footer, {width: '80%', duration: 0.9, ease: Power2.easeInOut})
 
 
 const tl3 =gsap.timeline();
-tl3.to(headline, {left: '0%', duration: 1})
-.to(headline, {left: '40%', duration: 1, ease: Power2.easeInOut})
-.to(headline,{left: '30%', duration: 1.3}, {top: '22%', duration: 1.3} )
-.to(headline,{top: '88%', duration: 1.3}, {left: '30%', duration: 1.3 , ease: Power2.easeInOut});
-
+tl3.to(headline, {left: '77%', duration: 1})
+.to(headline, {left: '10%', duration: 1})
+// .to(headline, {left: '40%', duration: 1, ease: Power2.easeInOut})
+.to(headline,{left: '43%', duration: 1.3,ease: Power2.easeInOut, top: '22%', duration: 1.3} )
+.to(headline,{top: '88%', duration: 1.3});
+// , {left: '30%', duration: 1.3 , ease: Power2.easeInOut}},
 
 const tl4 =gsap.timeline();
-tl4.to(headline1, {left: '0%', duration: 1})
-.to(headline1, {left: '30%', duration: 1, ease: Power2.easeInOut, top: '22%', duration: 1.3})
+tl4.to(headline1, {left: '77%', duration: 1})
+.to(headline1, {left: '10%', duration: 1})
+.to(headline1, {left: '43%', duration: 1.3, ease: Power2.easeInOut, top: '88%', duration: 1.3})
 // .to(headline1,  )
 .to(headline1,{top: '15%', duration: 1.3});
 
+const tl5 =gsap.timeline();
+tl5.to(linkOne, {display: 'none', duration: 1})
+.to(linkOne, {display: 'block', duration: 1 });
+// , easeOut
 
 // {left: '30%', duration: 1.3},
 // , {left: '30%', duration: 1.3 , ease: Power2.easeInOut}
@@ -99,13 +107,34 @@ tl4.to(headline1, {left: '0%', duration: 1})
 
 
 
+// function getQueryVariable(variable) {
+// 	var query = window.location.search.substring(1);
+// 	var vars = query.split("&");
+// 	for (var i=0;i<vars.length;i++) {
+// 		var pair = vars[i].split("=");
+// 		if(pair[0] == variable){return pair[1];}
+// 	}
+// 	return(false);
+// }
+//
 
-function getQueryVariable(variable) {
-	var query = window.location.search.substring(1);
-	var vars = query.split("&");
-	for (var i=0;i<vars.length;i++) {
-		var pair = vars[i].split("=");
-		if(pair[0] == variable){return pair[1];}
-	}
-	return(false);
-}
+
+// function getUrlParameters(name = false, decode = true) {
+//     const queryParams = location.search.substr(1).split('&').reduce((obj, keyVal) => {
+//       const [key, value] = keyVal.split('=');
+//       obj[key] = decode ? decodeURIComponent(value.replace(/\+/g, ' ')) : value;
+//       return obj;
+//     }, {});
+// console.log(name);
+//     return name ? queryParams[name] : queryParams;
+
+//   };
+
+// getUrlParameters();
+
+
+
+// const paramsUrl = document.querySelector('.paramsUrl');
+// const title = document.querySelector('h1');
+
+
