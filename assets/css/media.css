@@ -98,8 +98,8 @@ font-size: 22px;
     width:160px;
     height: 50px;
     position: absolute;
-    top: 80%;
-    left: 55%;
+     /* top: 80%; */
+   /* left: 55%; */
     background-color: #CE1069;
     text-align: center;
     border-radius: 25px;
@@ -110,7 +110,7 @@ font-size: 22px;
     transition-property: all;
  }
  .linkDesktop.two{
-     left: 30%;
+     /* left: 30%; */
  }
  .linkDesktop:hover{
     transform: translatey(-3px);
@@ -188,8 +188,8 @@ form{
 @media screen and (min-width: 1200px) {
     /* images.html*/
 .img{
-    width: 60%;
-    height: 50%;
+    width: 70%;
+    height: 60%;
 }
 
 }

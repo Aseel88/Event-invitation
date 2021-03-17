@@ -29,6 +29,11 @@ nav{
     font-size: 24px;
     color: #CE1069;
 }
+a.navParam{
+    /* display: none;
+    color:#CE1069 ; */
+    /* visibility: none; */
+}
 .hamburgerMenu{
     justify-self: end;
 }
