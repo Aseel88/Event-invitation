@@ -107,9 +107,6 @@ font-size: 22px;
     transition-delay: 0ms;
     transition-property: all;
  }
- .linkDesktop.two{
-     /* left: 30%; */
- }
  .linkDesktop:hover{
     transform: translatey(-3px);
     background-color: #facfcf;
@@ -145,7 +142,6 @@ font-size: 22px;
   .event.three{
    color: #CE1069;
    background-color: white;
-
   }
   .event.two .fal.fa-arrow-right,.event.six .fal.fa-arrow-right{
     color: white;
@@ -197,7 +193,7 @@ form{
   }
   .sideImg{
     margin-top: -30px;
-    height: 110%;
+    height: 104%;
     width: 100%;
     visibility: visible;
     grid-column: 2/3;
