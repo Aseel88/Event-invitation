@@ -12,7 +12,7 @@
 
 ## General info
 
-This project is to create a website for an evevt-invitation. The event is to taste new ice cream flavours which will be realeased by SIA Glass company.
+This project is to create a website for an event-invitation. The event is to taste new ice cream flavours which will be realeased by SIA Glass company.
 The landing page is responsive and built mobile-first, and contains many animations. It is personalized via a link that can be sent out with query parameters, and optimized using Parcel.
 The project is a team work that brings together IP and WU.
 
