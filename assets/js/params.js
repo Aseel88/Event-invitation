@@ -8,6 +8,6 @@ for (const param of params) {
 const name =  params.get('name');
 const tel =  params.get('tel');
 
-title.textContent = `Welcome ${name}!`;
-param2.textContent = `We will send you a verification code to your mobile number: ${tel}.`;
+title.textContent = `Välkommen ${name}!`;
+param2.textContent = `Vi skickar en verifieringskod till ditt mobilnummer: ${tel}.`;
 };
