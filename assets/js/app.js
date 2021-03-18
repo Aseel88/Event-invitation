@@ -9,9 +9,6 @@ const linktwo = document.querySelector('a.link.two');
 const lintDesktopOne = document.querySelector('a.linkDesktop.one');
 const lintDesktopTwo = document.querySelector('a.linkDesktop.two');
 
-// console.log(lintDesktopTwo);
-
-
 const tl = gsap.timeline();
 tl.to(hero, {width: '80%', duration: 0.9, ease: Power2.easeInOut})
 .to(hero, {height: '100%', duration: 1, ease: Power2.easeInOut})
@@ -39,22 +36,15 @@ tl5.to(linkOne, {display: 'none', duration: 1})
 
 
 const tl6 = gsap.timeline();
-// to(lintDesktopOne, {top: '60%', duration: 1})top: '70%', duration: 0.5 ,
 tl6.to(lintDesktopOne, {top: '0%', duration: 0.5 ,left: '0%', duration: 0.5})
 .to(lintDesktopOne, {top: '0%', duration: 0.5 ,left: '40%', duration: 0.1})
 .to(lintDesktopOne, {top: '40%', duration: 0.5 ,left: '45%', duration: 0.1})
-.to(lintDesktopOne, {top: '70%', duration: 0.5 ,left: '50%', duration: 0.8})
-.to(lintDesktopOne, {top: '80%', duration: 0.5 ,left: '55%', duration: 0.8})
-// , top: '80%', duration: 1.3
+.to(lintDesktopOne, {top: '70%', duration: 0.5 ,left: '50%', duration: 1})
+.to(lintDesktopOne, {top: '80%', duration: 0.5 ,left: '55%', duration: 1})
+
 const tl7= gsap.timeline();
-// .to(lintDesktopTwo, {top: '60%', duration: 1})top: '70%', duration: 0.5 ,
 tl7.to(lintDesktopTwo, {top: '0%', duration: 0.5 ,left: '0%', duration: 0.5})
 .to(lintDesktopTwo, {top: '0%', duration: 0.5 ,left: '40%', duration: 0.1})
 .to(lintDesktopTwo, {top: '40%', duration: 0.5 ,left: '37%', duration: 0.1})
-.to(lintDesktopTwo, {top: '70%', duration: 0.5 ,left: '33%', duration: 0.8})
-.to(lintDesktopTwo, {top: '80%', duration: 0.5 ,left: '30%', duration: 0.8})
-
-// tl6.to(lintDesktopOne, {top: '60%', duration: 1})
-// .to(lintDesktopOne, {top: '80%', duration: 1})
-// .to(lintDesktopOne, {top: '110%', duration: 1})
-// .to(lintDesktopOne, {top: '80%', duration: 1})
+.to(lintDesktopTwo, {top: '70%', duration: 0.5 ,left: '33%', duration: 1})
+.to(lintDesktopTwo, {top: '80%', duration: 0.5 ,left: '30%', duration: 1})

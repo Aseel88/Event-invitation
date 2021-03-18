@@ -71,9 +71,6 @@ font-size: 22px;
     footer{
      display: none;
     }
-    /* footer a{
-       z-index: 1;
-    } */
     .hero img{
       height: 87%;
      margin-top: 50px;
@@ -81,11 +78,14 @@ font-size: 22px;
   h5.text{
      display: block;
      position: absolute;
-     top: 20%;
-     left: 33%;
-     font-size: 30px;
-     color: red;
-     z-index: 3;
+     top: 15%;
+     left: 13%;
+     font-size: 36px;
+     color: #CE1069;
+     z-index: 10;
+ }
+ span.hidden{
+    visibility: hidden;
  }
  .headline, .headline1{
      display: none;
@@ -98,8 +98,6 @@ font-size: 22px;
     width:160px;
     height: 50px;
     position: absolute;
-     /* top: 80%; */
-   /* left: 55%; */
     background-color: #CE1069;
     text-align: center;
     border-radius: 25px;
@@ -180,10 +178,6 @@ form{
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr ;
 }
-/* .img{
-    width: 60%;
-    height: 50%;
-} */
 }
 @media screen and (min-width: 1200px) {
     /* images.html*/
@@ -191,5 +185,22 @@ form{
     width: 70%;
     height: 60%;
 }
-
+.sideNav {
+    z-index: 20;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+  }
+   .sideNav a {
+    grid-column: 1/2;
+    font-size: 22px;
+  }
+  .sideImg{
+    margin-top: -30px;
+    height: 110%;
+    width: 100%;
+    visibility: visible;
+    grid-column: 2/3;
+    grid-row: 1/9;
+    }
 }

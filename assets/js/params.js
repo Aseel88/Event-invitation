@@ -10,5 +10,4 @@ const tel =  params.get('tel');
 
 title.textContent = `Welcome ${name}!`;
 param2.textContent = `We will send you a verification code to your mobile number: ${tel}.`;
-
 };

@@ -28,7 +28,6 @@ main{
     justify-content: center;
     align-items: center;
     height: 73vh;
-
   }
   .container{
       margin: 0;
@@ -52,7 +51,6 @@ h2{
     align-items: center;
     padding-right: 2%;
    color: white;
-
 }
 .event.two{
     width: 100%;
@@ -62,7 +60,6 @@ h2{
     align-items: center;
     padding-right: 2%;
     color: #CE1069;
-
 }
 .event.three{
     width: 100%;
@@ -74,7 +71,6 @@ h2{
     align-items: center;
     padding-right: 2%;
     color: white;
-
 }
 .event.four{
    width: 100%;
@@ -84,7 +80,6 @@ h2{
     align-items: center;
     padding-right: 2%;
     color: #CE1069;
-
 }
 .event.five{
     width: 100%;
@@ -96,7 +91,6 @@ h2{
     align-items: center;
     padding-right: 2%;
     color: white;
-
 }
 .event.six{
    width: 100%;
@@ -146,7 +140,6 @@ h2{
 color:#CE1069 ;
 font-size: 20px;
 }
-
 .event.one .fal.fa-arrow-right:hover,
 .event.three .fal.fa-arrow-right:hover,
 .event.five .fal.fa-arrow-right:hover,
@@ -158,7 +151,6 @@ box-shadow: inset -1px 3px 8px 5px #fa6767, 2px 5px 16px 0px #f5f5f5, 16px -18px
 .event.two .fal.fa-arrow-right:hover,
 .event.four .fal.fa-arrow-right:hover,
 .event.six .fal.fa-arrow-right:hover{
-    /* width: 30px; */
     font-weight: bolder;
     -webkit-box-shadow: inset -1px 3px 8px 5px #dbdcdf, 2px 5px 16px 0px #969697, 16px -18px 5px 1px rgba(0,0,0,0);
 box-shadow: inset -1px 3px 8px 5px #dbdcdf, 2px 5px 16px 0px #969697, 16px -18px 5px 1px rgba(0,0,0,0);
