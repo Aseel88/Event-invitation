@@ -199,4 +199,16 @@ form{
     grid-column: 2/3;
     grid-row: 1/9;
     }
+    /* about.html */
+    .info{
+        margin-top: 10%;
+        align-self: end;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .sia{
+        font-weight: bold;
+        color: black;
+    }
 }
