@@ -1,37 +1,14 @@
-nav.program{
-   width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    height: 13vh;
-    align-items: center;
-    font-size: 24px;
-    color: #CE1069;
-    margin-bottom: 10%;
-}
-.back{
-    justify-self: end;
-}
-.fal.fa-long-arrow-left{
-      color: #CE1069;
-}
-.smallLogo{
-    grid-column: 3/4;
-    justify-self: center;
-}
-.smallLogo img{
-    width: 100px;
-    height: 80px;
-}
 main{
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 73vh;
   }
   .container{
       margin: 0;
-      width: 80%;
+      width: 90%;
+      height: 100vh;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -39,18 +16,18 @@ main{
   }
 h2{
     height: 5vh;
-    color: #CE1069;
+    color: var(--mainColor);
   }
 .event.one{
     height: 11vh;
    width: 100%;
-    background-color: #CE1069;
-    border: solid 1px #CE1069;
+    background-color: var(--mainColor);
+    border: solid 1px var(--mainColor);
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-right: 2%;
-   color: white;
+   color: var(--textColor);
 }
 .event.two{
     width: 100%;
@@ -59,18 +36,18 @@ h2{
     justify-content: space-between;
     align-items: center;
     padding-right: 2%;
-    color: #CE1069;
+    color: var(--mainColor);
 }
 .event.three{
     width: 100%;
     height: 11vh;
-    border: solid 1px #CE1069;
-    background-color: #CE1069;
+    border: solid 1px var(--mainColor);
+    background-color: var(--mainColor);
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-right: 2%;
-    color: white;
+    color: var(--textColor);
 }
 .event.four{
    width: 100%;
@@ -79,18 +56,18 @@ h2{
     justify-content: space-between;
     align-items: center;
     padding-right: 2%;
-    color: #CE1069;
+    color: var(--mainColor);
 }
 .event.five{
     width: 100%;
     height: 11vh;
-    border: solid 1px #CE1069;
-    background-color: #CE1069;
+    border: solid 1px var(--mainColor);
+    background-color: var(--mainColor);
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-right: 2%;
-    color: white;
+    color: var(--textColor);
 }
 .event.six{
    width: 100%;
@@ -99,18 +76,18 @@ h2{
     justify-content: space-between;
     align-items: center;
     padding-right: 2%;
-    color: #CE1069;
+    color: var(--mainColor);
 }
 .event.seven{
     width: 100%;
     height: 11vh;
-    border: solid 1px #CE1069;
-    background-color: #CE1069;
+    border: solid 1px var(--mainColor);
+    background-color: var(--mainColor);
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-right: 2%;
-    color: white;
+    color: var(--textColor);
 }
 .eventImg{
     width: 20%;
@@ -132,12 +109,12 @@ h2{
     justify-self: center;
     align-self: center;
     font-size: 20px;
-    color: white;
+    color: var(--textColor);
 }
 .event.two .fal.fa-arrow-right,
 .event.four .fal.fa-arrow-right,
 .event.six .fal.fa-arrow-right{
-color:#CE1069 ;
+color:var(--mainColor) ;
 font-size: 20px;
 }
 .event.one .fal.fa-arrow-right:hover,

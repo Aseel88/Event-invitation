@@ -1,0 +1,194 @@
+.user{
+    position: relative;
+    width: 100%;
+    height: 90vh;
+}
+.cone1{
+    position: absolute;
+    top: 20%;
+    right: -30%;
+    width: 175px;
+    height: 350px;
+}
+.cone2{
+    position: absolute;
+    top: 20%;
+    left: -30%;
+    height: 70%;
+    width: 70%;
+}
+.sb{
+    position: absolute;
+    top: 40%;
+    left: 0%;
+    height: 60%;
+    width: 80%;
+
+    margin: -60px 0 0 -60px;
+    animation: spin 8s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+@keyframes spin {
+    100% {
+        transform: rotateZ(360deg);
+    }
+}
+
+h1.title{
+    position: absolute;
+    top: 10%;
+    left: -50%;
+    color:var(--mainColor) ;
+}
+button.initial{
+    position: absolute;
+    top: 20%;
+    left: 14%;
+    opacity: 0;
+    width: 110px;
+    height: 40px;
+    z-index: 1;
+    border-radius: 20px;
+    border: none;
+    color: var(--mainColor);
+    font-weight: 1000;
+    background: linear-gradient(to right, #f0c5d9,#ece5e9);
+}
+h1.titleDesktop{
+    visibility: hidden;
+}
+ @media screen and (min-width: 500px) {
+    .user{
+        margin-bottom: 20px;
+    }
+    .cone1{
+        position: absolute;
+        top: 15%;
+        right: -10%;
+        width: 200px;
+        height: 400px;
+     }
+     .cone2{
+        top: 15%;
+        left: -35%;
+        width: 250px;
+        height: 450px;
+    }
+    }
+ @media screen and (min-width: 600px) {
+    .cone1{
+        right: -5%;
+        width: 200px;
+        height: 400px;
+        }
+    .cone2{
+        top: 15%;
+        width: 250px;
+        height: 450px;
+        }
+    .sb{
+        top: 25%;
+        width: 400px;
+        height: 600px;
+        }
+    }
+ @media screen and (min-width: 700px) {
+    .user{
+        height: 80vh;
+        }
+    .cone1{
+        width: 220px;
+        height: 450px;
+        }
+    .cone2{
+        top: 5%;
+        width: 350px;
+        height: 550px;
+        }
+    .sb{
+        top: 5%;
+        width: 500px;
+        height: 700px;
+        }
+    button.initial{
+        left:64%;
+        }
+    h1.titleDesktop{
+        visibility: visible;
+        position: absolute;
+        top: 10%;
+        left: -30%;
+        color:var(--mainColor) ;
+        }
+    h1.title{
+        visibility: hidden;
+        }
+    }
+@media screen and (min-width: 900px) {
+    .user{
+        height: 85vh;
+        }
+    .cone1{
+        width: 270px;
+        height: 500px;
+        }
+    button.initial{
+        top: 30%;
+        left:50%;
+        }
+    }
+@media screen and (min-width: 1000px) {
+    .user{
+        margin-bottom: 700px;
+    }
+    .cone1{
+        top: 30%;
+        width: 270px;
+        height: 500px;
+    }
+    button.initial{
+        position: absolute;
+        top: 100%;
+        left:50%;
+        margin-top: 200px;
+    }
+    .sb{
+        top: 15%;
+        width: 600px;
+        height: 800px;
+    }
+    h1.titleDesktop{
+        margin-top: 50px;
+    }
+    }
+@media screen and (min-width: 1200px) {
+    h1.titleDesktop{
+        margin-top: 70px;
+    }
+    button.initial{
+        left:55%;
+        margin-top: 200px;
+    }
+    }
+@media screen and (min-width: 1400px) {
+    .user{
+        height: 100vh;
+    }
+    h1.titleDesktop{
+        margin-top: 150px;
+        font-size: 40px;
+    }
+    button.initial{
+        width: 160px;
+        height:45px;
+        left:50%;
+        margin-top: 250px;
+        font-size: 20px;
+    }
+    .sb{
+        top: 15%;
+        width: 800px;
+        height: 900px;
+    }
+}

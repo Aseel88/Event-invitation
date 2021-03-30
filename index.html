@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/program.css" />
     <link rel="stylesheet" href="assets/css/media.css" />
+    <link rel="stylesheet" href="assets/css/user.css" />
+    <link rel="stylesheet" href="assets/css/footer.css" />
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link rel="shortcut icon" type="image/png" href="assets/images/logoSia.svg"/>
@@ -18,45 +20,173 @@
 <body>
     <header>
         <nav>
-            <span class="hamburgerMenu">
+            <div class="hamburgerMenu">
             <a href="#">
                 <i class="fal fa-bars"></i>
-            </a> </span>
+            </a> </div>
             <div id="sideMenu" class="sideNav">
                 <a href="#" class="btnClose">&times;</a>
-                <a class="navLink" href="/index.html">HEM</a>
-                <a class="navLink" href="/program.html">PROGRAM</a>
-                <a class="navLink" href="/registration.html">ANMÄLAN</a>
-                <a class="navLink" href="/images.html">BILDER</a>
-                <a class="navLink" href="/about.html">OM OSS</a>
-                <img class="sideImg" src="assets/images/hero.jpeg" alt="the main image ice cream">
+                <a class="navLink" href="#">HEM</a>
+                <a class="navLink" href="#">PROGRAM</a>
+                <a class="navLink" href="#">ANMÄLAN</a>
+                <a class="navLink" href="#">BILDER</a>
+                <a class="navLink" href="#">OM OSS</a>
             </div>
-            <a class="navParam" href="/params.html">params</a>
             <div class="logo"> <img src="/assets/images/logoSia.svg"></div>
            <div class="search"><i class="fal fa-search"></i></div>
         </nav>
     </header>
-    <section class="home">
-        <div class="hero">
-            <h5 class="text"> Glassfesten 2021<span class="hidden">...........................................</span> Fredag 11 juni</h5>
-            <h6 class="headline1"> Glassfesten 2021</h6>
-            <img src="/assets/images/hero.jpeg" alt="the main image ice cream">
-            <h6 class="headline">Fredag 11 juni</h6>
-            <a class="linkDesktop one" href="/program.html">SE PROGRAM</a>
-           <a class="linkDesktop two" href="/registration.html">TILL ANMÄLAN</a>
+    <main>
+        <section class="user">
+            <h1 class="title"></h1>
+            <h1 class="titleDesktop"></h1>
+            <button class="initial"> SE PROGRAM</button>
+            <div class="iceCream">
+                <img class = "sb" src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/starburst2.png'>
+                <picture class="cone2">
+                    <source media="(min-width: 950px)" srcset="assets/images/cone-02-big.png" />
+                    <source media="(min-width: 700px)" srcset="assets/images/cone-02-medium.png" />
+                    <source media="(min-width: 0px)" srcset="assets/images/cone-02-small.png" />
+                    <img class="cone2" src=""
+                        alt="cone" />
+                </picture>
+                <picture class="cone1">
+                    <source media="(min-width: 950px)" srcset="assets/images/cone-01-big.png" />
+                    <source media="(min-width: 700px)" srcset="assets/images/cone-01-medium.png" />
+                    <source media="(min-width: 0px)" srcset="assets/images/cone-01-small.png" />
+                    <img class="cone1" src=""
+                        alt="cone" />
+                </picture>
+           </div>
+        </section>
+        <section class="home toHide">
+            <div class="hero ">
+                <h6 class="headline1"> Glassfesten-2021</h6>
+                <picture class="heroImg">
+                    <source srcset="assets/images/hero-1000.jpeg" media="(min-width: 950px)"/>
+                    <source srcset="assets/images/hero-700.jpeg" media="(min-width: 700px)"/>
+                    <source srcset="/assets/images/hero-400.jpeg" media="(min-width: 0px)"/>
+                    <img class="heroImg" src="/assets/images/hero.jpeg"
+                        alt="the main image ice cream" />
+                </picture>
+                <h6 class="headline">Fredag 11 juni</h6>
+                <button class="btn scroll">Anmäla dig</button>
+            </div>
+        </section>
+        <div class="grid one toHide">
+            <picture class="img one">
+                <source srcset="/assets/images/img1-900.jpg" media="(min-width: 950px)"/>
+                <source srcset="/assets/images/img1-700.jpg" media="(min-width: 700px)"/>
+                <source srcset="/assets/images/img1-400.jpg" media="(min-width: 0px)"/>
+                <img class="img one" src="/assets/images/img1-700.jpg"
+                    alt="recept img" />
+            </picture>
+            <p class="gridTex1">Att vår glass görs av svensk färsk grädde och med råvaror av högsta kvalitet känner du nog på smaken!</p>
+            <p class="gridTex2">Vi är en glass att lita på. Från gårdarna och korna till glassproduktionen i Slöinge där vi tillverkar vår glass.</p>
+            <picture class="img two">
+                <source srcset="/assets/images/img2-900.jpg" media="(min-width: 950px)"/>
+                <source srcset="/assets/images/img2-700.jpg" media="(min-width: 700px)"/>
+                <source srcset="/assets/images/img2-400.jpg" media="(min-width: 0px)"/>
+                <img class="img two" src="/assets/images/img2-700.jpg"
+                    alt="recept img" />
+            </picture>
         </div>
-         <footer>
-        <a class="link one" href="/program.html">SE PROGRAM</a>
-        <a class="link two" href="/registration.html">TILL ANMÄLAN</a>
+        <div class="container">
+            <div class="event one">
+                <img class = "eventImg" src="assets/images/hero.jpeg" alt="small hero img"/>
+                <p class="program">10.00 - Händelse <br> Beskrivning av händelse </p>
+                <a href="#"><i class="fal fa-arrow-right"></i></a>
+            </div>
+            <div class="event two">
+                <img class = "eventImg" src="assets/images/hero.jpeg" alt="small hero img"/>
+                <p class="program">11.00 - Händelse <br> Beskrivning av händelse </p>
+                <a href="#"><i class="fal fa-arrow-right"></i></a>
+            </div>
+            <div class="event three">
+                <img class = "eventImg" src="assets/images/hero.jpeg" alt="small hero img"/>
+                <p class="program">12.00 - Händelse <br> Beskrivning av händelse </p>
+                <a href="#"><i class="fal fa-arrow-right"></i></a>
+            </div>
+            <div class="event four">
+                <img class = "eventImg" src="assets/images/hero.jpeg" alt="small hero img"/>
+                <p class="program">13.00 - Händelse <br> Beskrivning av händelse </p>
+                <a href="#"><i class="fal fa-arrow-right"></i></a>
+            </div>
+            <div class="event five">
+                <img class = "eventImg" src="assets/images/hero.jpeg" alt="small hero img"/>
+                <p class="program">14.00 - Händelse <br> Beskrivning av händelse </p>
+                <a href="#"><i class="fal fa-arrow-right"></i></a>
+            </div>
+            <div class="event six">
+                <img class = "eventImg" src="assets/images/hero.jpeg" alt="small hero img"/>
+                <p class="program">15.00 - Händelse <br> Beskrivning av händelse </p>
+                <a href="#"><i class="fal fa-arrow-right"></i></a>
+            </div>
+            <div class="event seven">
+                <img class = "eventImg" src="assets/images/hero.jpeg" alt="small hero img"/>
+                <p class="program">16.00 - Händelse <br> Beskrivning av händelse </p>
+                <a href="#"><i class="fal fa-arrow-right"></i></a>
+            </div>
+        </div>
+        <div class="grid two toHide">
+            <picture class="img three">
+                <source srcset="/assets/images/img3-900.jpg" media="(min-width: 950px)"/>
+                <source srcset="/assets/images/img3-700.jpg" media="(min-width: 700px)"/>
+                <source srcset="/assets/images/img3-400.jpg" media="(min-width: 0px)"/>
+                <img class="img three" src="/assets/images/img3-700.jpg"
+                    alt="recept img" />
+            </picture>
+            <p class="gridTex1">I år bjuder vår unika glasskarta med enbart svensktillverkad glass på tre fantastiskt goda nyheter. Här finns något för alla.</p>
+            <p class="gridTex2">Vad sägs om en ny kompis till alla barn i form av en superhjälte, magiskt goda Salted Caramel med fräsch apelsinsorbet på pinne.</p>
+            <picture class="img four">
+                <source srcset="/assets/images/img4-900.jpg" media="(min-width: 950px)"/>
+                <source srcset="/assets/images/img4-700.jpg" media="(min-width: 700px)"/>
+                <source srcset="/assets/images/img4-400.jpg" media="(min-width: 0px)"/>
+                <img class="img four" src="/assets/images/img4-700.jpg"
+                    alt="recept img" />
+            </picture>
+        </div>
+
+        <div class="form toHide">
+            <form action="#">
+                <div class="formGroup">
+                    <label for="firstName">Förnamn <p class="star">*</p></label>
+                    <input class="formControl" type="text" placeholder="Skriv din förnamn" required>
+                </div>
+                <div class="formGroup">
+                    <label for="lastName">Efternamn <p class="star">*</p></label>
+                    <input class="formControl" type="text" placeholder="Skriv din efternamn" required>
+                </div>
+                <div class="formGroup">
+                    <label for="email">E-Post <p class="star">*</p></label>
+                    <input class="formControl" type="email" placeholder="Skriv din e-post" required>
+                </div>
+                <div class="formGroup">
+                    <label for="phoneNumber">Telefonnummer </label>
+                    <input class="formControl" type="number" placeholder="Skriv ditt telefonnummer">
+                </div>
+                <button type="submit" class="btn">SKICKA</button>
+            </form>
+        </div>
+        <button id= "topBtn" class="topBtn">Top</button>
+    <footer>
+        <ul>
+            <li><a href="https://www.siaglass.se/sv/"> SIA Glass</a></li>
+            <li><a href="https://www.siaglass.se/sv/om-oss/kontakt/kontakta-oss/"> Kontakta oss</a></li>
+            <li><a href="https://www.siaglass.se/sv/om-oss/en-glass-att-lita-pa/"> Om oss</a></li>
+        </ul>
+        <div class="socialMedia">
+            <a href="https://www.facebook.com/siaglass/"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://www.youtube.com/channel/UCel6PawOXBePXyVpABlHd4g">  <i class="fab fa-youtube"></i></a>
+            <a href="https://www.instagram.com/siaglass/"><i class="fab fa-instagram"></i></a>
+        </div>
     </footer>
-</section>
-    <div class="slider"></div>
+</main>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenLite.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollTrigger.min.js"></script>
     <script src="assets/js/app.js"></script>
     <script src="assets/js/sideMenu.js"></script>
-    <script src="assets/js/params.js"></script>
 </body>
 </html>
